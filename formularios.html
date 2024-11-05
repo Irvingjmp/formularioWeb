@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formularios</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="formulario">
+        <h2> Formulario de registro</h2>
+        <form class="registro">
+            <label>Nombre</label>
+            <input id="nombre" class="datos" type="text">
+            <br>
+
+            <label for="correo">Ingresa tu email</label>
+            <input class="datos" type="email" id="correo">
+            <br>
+
+            <label>Contraseña</label>
+            <input id="password" class="datos" type="password">
+            <br>
+            
+            <label>Adjuntar archivo</label>
+            <input class="datos" type="submit">
+            <br>
+
+            <label> Fecha de nacimiento</label>
+            <input id="fechaNacimiento" type="date">
+            <br>
+
+            <label>Telefono</label>
+            <input type="tel">
+            <br>
+
+            <label>Aceptas terminos y condiciones</label>
+            <input id="terminos" type="checkbox">
+            <br>
+
+            <label>¿Deseas recibir promociones?</label>
+            <input type="radio">
+            <br>
+
+            <input id="registrarse" class="boton" type="button" value="Registrar">
+            
+        </form>
+    </div>
+<script src="script.js"></script>
+</body>
+</html>

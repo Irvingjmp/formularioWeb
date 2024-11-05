@@ -1,0 +1,57 @@
+.formulario{
+    width: 500px;
+    background-color: #2e4053;
+    padding: 20px;
+    margin: auto;
+    border-radius: 10px;
+    font-family: 'Courier New', Courier;
+    color:white;
+    h2{
+        margin-bottom: 10px;
+        font-size: 24px;
+    }
+    .datos{
+        width: 100%;
+        background-color: #2e4053;
+        margin-bottom: 10px;
+        border-radius: 5px;
+        border:1px solid #2980b9;
+    }
+    .boton{
+        margin-top: 10px;
+        width: 100%;
+        color:white;
+        background: #1f53c5;
+        border: none;
+        padding: 12px;
+        font-size: 16px;
+        cursor: pointer;
+    }
+}
+html{
+    font-family:'Times New Roman', Times, serif;
+}
+img{
+    width: 250px;
+    height: auto;
+    display:block;
+    margin: 0 auto
+}
+
+li{
+    color:#2e4053;
+    font-family: 'Courier New', Courier, monospace;
+}
+p{
+    text-align: justify;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+#enProceso{
+    width: 400px;
+}
+div{
+    margin:10px;
+    padding: 20px;
+    background-color: #8ea6be;
+    border-radius: 10px;
+}
